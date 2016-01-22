@@ -21,7 +21,14 @@ if False:
     print ""
     array = np.array([[1, 2, 3], [4, 5, 6]], float)  # a 2D array/Matrix
     print array
+'''
+Output:
+[ 1.  4.  5.  8.]
 
+[[ 1.  2.  3.]
+ [ 4.  5.  6.]]
+'''
+	
 '''
 You can index, slice, and manipulate a Numpy array much like you would with a
 a Python list.
@@ -37,6 +44,16 @@ if False:
     print ""
     array[1] = 5.0
     print array[1]
+'''
+Output :
+[ 1.  4.  5.  8.]
+4.0
+
+
+[ 1.  4.]
+
+5.0
+'''
 
 # Change False to True to see Matrix indexing and slicing in action
 if False:
@@ -48,6 +65,18 @@ if False:
     print two_D_array[1, :]
     print ""
     print two_D_array[:, 2]
+'''
+Output :
+[[ 1.  2.  3.]
+ [ 4.  5.  6.]]
+
+5.0
+
+[ 4.  5.  6.]
+
+[ 3.  6.]
+
+'''
 
 '''
 Here are some arithmetic operations that you can do with Numpy arrays
@@ -61,6 +90,14 @@ if False:
     print array_1 - array_2
     print ""
     print array_1 * array_2
+'''
+Output:
+[ 6.  4.  9.]
+
+[-4.  0. -3.]
+
+[  5.   4.  18.]
+'''
 
 # Change False to True to see Matrix arithmetics in action
 if False:
@@ -71,6 +108,17 @@ if False:
     print array_1 - array_2
     print ""
     print array_1 * array_2
+'''
+Output :
+[[  6.   8.]
+ [ 10.  12.]]
+
+[[-4. -4.]
+ [-4. -4.]]
+
+[[  5.  12.]
+ [ 21.  32.]]
+'''
 
 '''
 In addition to the standard arthimetic operations, Numpy also has a range of
@@ -86,3 +134,9 @@ if False:
     print np.mean(array_2)
     print ""
     print np.dot(array_1, array_2)
+'''
+2.0
+7.0
+
+[ 44.]
+'''
