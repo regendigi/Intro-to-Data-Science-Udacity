@@ -5,7 +5,7 @@ I've been interested to learn about data science for quite some time now. I deci
 
 Course Summary
 ------------
-Link : https://www.udacity.com/course/intro-to-data-science--ud359
+Link : https://www.udacity.com/course/intro-to-data-science--ud359  
 The Introduction to Data Science class will survey the foundational topics in data science, namely:
 
 - Data Manipulation
