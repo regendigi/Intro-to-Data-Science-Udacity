@@ -1,4 +1,4 @@
-Intro to Data Science -- Learn What It Takes to Become a Data Scientist 
+Intro to Data Science
 ==================================
 I've been interested to learn about data science for quite some time now. I decided to take this free course on udacity, I hope I can learn something new upon finishing this course. This repo is where I commited all lesson exercise and final exercise.
 
